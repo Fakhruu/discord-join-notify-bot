@@ -4,6 +4,7 @@ const { REST } = require('@discordjs/rest');
 const { Routes } = require('discord-api-types/v9');
 const Discord = require("discord.js")
 const token = process.env.DISCORD_TOKEN;
+// Hardcored channel ID
 const discordChannelID = process.env.CHANNEL_ID;
 
 
